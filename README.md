@@ -1,4 +1,10 @@
-In this project, Python was used to access the OpenWeatherMap API to obtain weather data for a large number of cities.
+In this project, Python was used to access the OpenWeatherMap API to obtain and visualize weather data for over 500 cities across the world of 
+varying distance from the equator.  Scatterplots were generated from the weather data to showcase the following relationships:
+
+* Temperature (F) vs. Latitude
+* Humidity (%) vs. Latitude
+* Cloudiness (%) vs. Latitude
+* Wind Speed (mph) vs. Latitude
 
 ## Python Code
 
