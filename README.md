@@ -879,23 +879,7 @@ city_weather_df = pd.read_csv(city_weather_csv)
 city_weather_df.head()
 ```
 
-
-
-
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -977,7 +961,6 @@ city_weather_df.head()
 </div>
 
 
-
 ## Plotting the data
 * Use proper labeling of the plots using plot titles (including date of analysis) and axe labels.
 * Save the plotted figures as .pngs.
@@ -1021,8 +1004,7 @@ plt.savefig("Output/Latitude_Temperature_Scatterplot.png")
 plt.show()
 ```
 
-
-
+![Latitude Temperature Scatterplot](Output/Latitude_Temperature_Scatterplot.png)
 
 ### Latitude vs. Humidity Plot
 
@@ -1063,8 +1045,7 @@ plt.savefig("Output/Latitude_Humidity_Scatterplot.png")
 plt.show()
 ```
 
-
-
+![Latitude Humidity Scatterplot](Output/Latitude_Humidity_Scatterplot.png)
 
 ### Latitude vs. Cloudiness Plot
 
@@ -1105,7 +1086,7 @@ plt.savefig("Output/Latitude_Cloudiness_Scatterplot.png")
 plt.show()
 ```
 
-
+![Latitude Cloudiness Scatterplot](Output/Latitude_Cloudiness_Scatterplot.png)
 
 
 ### Latitude vs. Wind Speed Plot
@@ -1147,17 +1128,16 @@ plt.savefig("Output/Latitude_Wind_Speed_Scatterplot.png")
 plt.show()
 ```
 
-
+![Latitude Wind Speed Scatterplot](Output/Latitude_Wind_Speed_Scatterplot.png)
 
 ## Weather Analysis
-
 
 ### Latitude vs Temperature
 
 ![Latitude Temperature Scatterplot](Output/Latitude_Temperature_Scatterplot.png)
 
-The temperature increases significantly as one approaches the equator (0 Deg. Latitude).  
-However, the temperature in the southern hemisphere tends to be higher in this time of year than the northern hemisphere.
+The temperature increases significantly as one approaches the equator (0 Deg. Latitude).  However, the temperature in 
+the southern hemisphere tends to be higher in this time of year than the northern hemisphere.
 
 ### Latitude vs Cloudiness
 
